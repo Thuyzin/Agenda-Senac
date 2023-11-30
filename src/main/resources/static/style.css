@@ -1,0 +1,67 @@
+h1{
+    color: violet;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.div-top{
+    color: red;
+    font-size: 90px;
+    text-align: right;
+    list-style-type: none;
+    top: 622px;
+    position: relative;
+}
+
+.lista{
+    color: red;
+    font-size: 90px;
+    text-align: right;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.cadt{
+    color: blueviolet;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.lbl{
+    display: block;
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.caixa{
+    width: 50%;
+    height: 35px;
+    border-color: chocolate;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.caixa::placeholder{
+    font-size: 20px;
+    color: red;
+}
+
+.primary_button{
+    margin: 40px auto 0px auto;
+    display: block;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    color:  red;
+    background-color:  white;
+    border: none;
+    text-decoration: none;
+  }
+
+

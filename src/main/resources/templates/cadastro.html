@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="https://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: black;">
+    <h2 class="cadt">
+        Adicionar
+    </h2>
+
+    <!--Cadastro-->
+    <div>
+        <form action="#" th:action="@{Registro}" th:object="${registro}" method="post" >
+            <label class="lbl" for="nome">nome</label>
+            <input  th:field="*{nome}" id="nome" class="caixa" placeholder="Digite o seu nome" type="text">
+            <label class="lbl" for="email">email</label>
+            <input th:field="*{email}" id="email" class="caixa" placeholder="Digite o seu email" type="email">
+            <label class="lbl" for="telefone">telefone</label>
+            <input th:field="*{telefone}" id="telefone" class="caixa" placeholder="Digite o seu telefone" type="number">
+            <input type="submit" class="primary_button">
+        </form>
+    </div>
+
+</body>
+</html>
